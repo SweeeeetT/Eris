@@ -1,6 +1,7 @@
 # Eris
 ## Simple Python API for user account automation with Discord web-client
--  Allows user account automation without being labeled as a bot
+- Allows user account automation without being labeled as a bot
+- Supports basic functionality, but is still a work-in-progress
 
 ## Dependencies:
 - Selenium -- `pip3 install selenium`
@@ -13,4 +14,6 @@
 - If your code uses the API to change the contents of a server (i.e. posting a message, deleting a message, replying to a message, etc.) you will need to allow time for that change to be posted based on your machine and internet speed, before you continue to try to interact with the web client.
 
 ## Roadmap:
-- Going forward, I will be extending similar functionality to work with Slack.
+- Support private channels
+- Support DM automation
+- Extend similar functionality to Slack web client
